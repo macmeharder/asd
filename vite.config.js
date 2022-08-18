@@ -19,6 +19,20 @@ export default defineConfig({
         display: "standalone",
         scope: "/",
         start_url: "/",
+        icons: [
+          {
+            src: "img.png",
+            sizes: "192x192",
+            type: "image/png",
+            purpose: "maskable any"
+          },
+          {
+            src: "img_1.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "maskable any"
+          }
+        ],
       },
     }),]
 })
